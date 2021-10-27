@@ -62,7 +62,7 @@
      }
     #slide-right {
   position: relative;
-  animation: moving 6s infinite; 
+  animation: moving 9s infinite; 
     }
     @keyframes moving {
      0% {
