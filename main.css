@@ -1,5 +1,5 @@
   body {
-      background-color:blue;
+      background-color:black;
       color:white;
     }
    
@@ -62,11 +62,11 @@
      }
     #slide-right {
   position: relative;
-  animation: moving 10s infinite; 
+  animation: moving 5s infinite; 
     }
     @keyframes moving {
      0% {
-      left: 0px;
+      left: -100px;
      }  
      100% {
       left: 2000px;
