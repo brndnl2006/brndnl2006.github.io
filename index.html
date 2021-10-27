@@ -68,6 +68,18 @@
        font-family:Helvetica;
        color:Red;
      }
+    #slide-right {
+  position: relative;
+  animation: moving 10s infinite; 
+    }
+    @keyframes moving {
+     0% {
+      left: 0px;
+     }  
+     100% {
+      left: 2000px;
+     }
+    }
    </style>
     <body>
       <h1>My Personal Website</h1>
@@ -130,7 +142,7 @@
           <li>Spiderman Into The Spider Verse</li>
           </ol>
         <hr>
-          <h6>Clicking on each image leads to the wikipedia page(interests) or their website(schools)</h6>
+          <h6 id="slide-right">Clicking on each image leads to the wikipedia page(interests) or their website(schools)</h6>
     </body>
   </head>
 </html>  
