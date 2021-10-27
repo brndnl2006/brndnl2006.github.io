@@ -1,0 +1,74 @@
+  body {
+      background-color:black;
+      color:white;
+    }
+   
+     h1 {
+      color:magenta;
+      font-style:Bold;
+    }
+     
+     h6 {
+       color:yellow;
+       
+     }
+     img {
+       width: 400px;
+       height:400px;
+       border: 3px double;
+       border radius: 15px:
+     }
+     .interests {
+       color:cyan; 
+     }
+     }
+     #author {
+       color:cyan;
+       font-style:italic;
+     }
+     #interests {
+       color: magenta;
+     }
+     #where-i-come-from {
+       color:magenta;
+     }
+     #middle{
+       width: 400px;
+       height:400px;
+       border: 3px double;
+       border radius: 15px:
+     }
+     #favorite-manga {
+       font-style:italic;
+       font-family:Helvetica;
+       color:Red;
+     }
+     .interest-img {
+       width: 500px;
+       height:280px;
+       border: 3px double;
+       border radius: 15px:
+       
+     }
+     #favorite-anime {
+       font-style:italic;
+       font-family:Helvetica;
+       color:Red;
+     }
+     #favorite-movie {
+       font-style:italic;
+       font-family:Helvetica;
+       color:Red;
+     }
+    #slide-right {
+  position: relative;
+  animation: moving 10s infinite; 
+    }
+    @keyframes moving {
+     0% {
+      left: 0px;
+     }  
+     100% {
+      left: 2000px;
+     }
+    }
