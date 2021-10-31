@@ -62,12 +62,15 @@
      }
     #slide-right {
   position: relative;
-  animation: moving 7s infinite; 
+  animation: moving 10s infinite; 
     }
     @keyframes moving {
      0% {
       left: -500px;
      }  
+      50%{
+        left:500px;
+      }
      100% {
       left: 1500px;
      }
